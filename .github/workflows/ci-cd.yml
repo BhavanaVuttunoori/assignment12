@@ -52,6 +52,8 @@ jobs:
     
     - name: Generate test report
       if: always()
+      env:
+        DATABASE_URL: postgresql://testuser:testpassword@localhost:5432/test_webapi_db
       run: |
         pytest tests/ -v --tb=short --junit-xml=test-results.xml
     
