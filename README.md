@@ -225,7 +225,16 @@ The repository includes a GitHub Actions workflow (.github/workflows/ci-cd.yml) 
 **Objective**: Implement and test user registration/login endpoints and calculation CRUD operations with comprehensive integration testing and CI/CD pipeline.
 
 ### Implementation Checklist
-✅ SQLAlchemy models for User and Calculation with proper relationships. ✅ Pydantic schemas with validation (division by zero, email format, password strength). ✅ User registration endpoint with duplicate detection and password hashing. ✅ User login endpoint with password verification. ✅ Calculation BREAD endpoints (Browse, Read, Edit, Add, Delete). ✅ 30+ comprehensive tests covering user and calculation scenarios. ✅ FastAPI application with full CRUD operations. ✅ GitHub Actions workflow with PostgreSQL integration. ✅ Docker containerization with docker-compose support. ✅ Comprehensive documentation.
+- SQLAlchemy models for User and Calculation with proper relationships
+- Pydantic schemas with validation (division by zero, email format, password strength)
+- User registration endpoint with duplicate detection and password hashing
+- User login endpoint with password verification
+- Calculation BREAD endpoints (Browse, Read, Edit, Add, Delete)
+- 30+ comprehensive tests covering user and calculation scenarios
+- FastAPI application with full CRUD operations
+- GitHub Actions workflow with PostgreSQL integration
+- Docker containerization with docker-compose support
+- Comprehensive documentation
 
 ### Submission Package
 - GitHub repository: https://github.com/BhavanaVuttunoori/assignment12
@@ -290,7 +299,14 @@ The repository includes a GitHub Actions workflow (.github/workflows/ci-cd.yml) 
 | Verify project | `.\verify.ps1` |
 
 ## Submission Tips
-✅ Commit frequently with meaningful messages describing each feature. ✅ Keep .env or secrets out of version control (use .gitignore). ✅ Verify all tests pass locally before pushing. ✅ Ensure GitHub Actions workflow completes successfully. ✅ Capture required screenshots showing green checkmarks in Actions tab. ✅ Verify Docker image is publicly accessible on Docker Hub. ✅ Update README with your actual GitHub and Docker Hub usernames. ✅ Include reflection document discussing implementation challenges and solutions.
+- Commit frequently with meaningful messages describing each feature
+- Keep .env or secrets out of version control (use .gitignore)
+- Verify all tests pass locally before pushing
+- Ensure GitHub Actions workflow completes successfully
+- Capture required screenshots showing green checkmarks in Actions tab
+- Verify Docker image is publicly accessible on Docker Hub
+- Update README with your actual GitHub and Docker Hub usernames
+- Include reflection document discussing implementation challenges and solutions
 
 ## Learning Outcomes
 **CLO3: Create Python applications with automated testing**
